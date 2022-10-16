@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class principal {
 
 	public static void main(String[] args) {
-	  try (Scanner sc = new Scanner(System.in)) {
+		//Faça um programa que mostre o menu de opção a seguir, receba a opção do usuário e os dados necessários para executar cada operação.
+	  Scanner sc = new Scanner(System.in);
 		double num1, num2, soma, raiz, op;
 				System.out.println("Menu");
 				System.out.println("1- Somar dois números");
