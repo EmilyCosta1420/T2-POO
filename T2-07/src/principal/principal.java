@@ -25,10 +25,10 @@ public class principal {
 			 if (peso > 80) {
 				 tot80 = tot80 + 1;
 	}
+			 medId = medId/11;
 	}
 	  }
-		 medId = medId/11;
-		 System.out.println("A media de idade dos jogadores é: " + medId);
+		 System.out.println("A media de idade dos jogadores do time " + qntTime + "é: " + medId);
 	  System.out.println("A quantidade de Jogadores menores de 18 é: " + qtde);
 		 medAlt = medAlt/55;
 		 System.out.println("A media dde altura dos jogadores deste campeonato é: " + medAlt);
